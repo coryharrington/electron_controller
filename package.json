@@ -1,0 +1,32 @@
+{
+  "name": "electron_controller",
+  "version": "1.0.0",
+  "description": "Controller for desktop keyboard controls",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "tsc src/app.ts --outDir dist && node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coryharrington/electron_controller.git"
+  },
+  "keywords": [
+    "Typescript",
+    "ExpressJs",
+    "Metaprogramming"
+  ],
+  "author": "Cory Harrington",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coryharrington/electron_controller/issues"
+  },
+  "homepage": "https://github.com/coryharrington/electron_controller#readme",
+  "dependencies": {
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.8",
+    "electron": "^7.1.9"
+  }
+}
